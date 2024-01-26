@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .container {
+    position: relative;
+    display: block;
+    width: 85%;
+    max-width: 960px;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0,
+    0, 0.3);
+    text-align: center;
+  }
+
+  .image-container {
+    position: absolute;
+    display: flex;
+    margin-top: -2rem; 
+  }
+
+  .text-info-container {
+    position: absolute;
+    display: block;
+    margin: 0;
+  }
+
+  
+  .large-button {
+    display: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    background-color: #233d4e; /* Button background color */
+    background-image: url('/assets/portrait08.webp');
+    background-blend-mode:soft-light ;
+    background-size: cover; /* Adjust as needed */
+    background-position: 0px; /* Adjust as needed */
+    background-repeat: no-repeat;
+    color: #00eeff; /* Button text color */
+    font-size: 24px;
+    font-family: 'UTM Avo', Arial, sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: None;
+    cursor: pointer;
+    transition: background-color 0.3s ease, background-position 0.3s ease, background-blend-mode 0.3s ease;
+} 
+   
+  .large-button:hover {
+    background-blend-mode: normal;
+    background-position: -20px; /* Move image to the default position on hover */
+    background-color: #00eeff; /* Change the background color on hover */
+    color: #233d4e;
+  }
+
+  .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px; /* Add padding for better readability */
+    margin-top: -20px;
+  }
+  
+  .button-name {
+    font-size: 70px; /* Increase the font size for "01" */
+    font-weight: bold; /* Make it bold */
+  }
+  
+  .button-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transform: rotate(90deg); /* Rotate 90 degrees */
+    transform-origin: bottom left; /* Set the rotation origin to the bottom left corner */
+    margin-top: -60px; /* Add some margin to space it from "01" */
+    width: 200px;
+  }
+
+  .button-main-name {
+    font-size: 20px; /* Increase the font size for "01" */
+    font-weight: bold; /* Make it bold */
+  }
+
+  .button-detail-name {
+    font-size: 20px;
+  }
+
+
+  
